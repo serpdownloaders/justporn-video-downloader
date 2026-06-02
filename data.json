@@ -1,0 +1,219 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/justporn-downloader",
+  "serply_link": "https://serp.ly/justporn-downloader",
+  "app_name": "Justporn Video Downloader",
+  "short_description": "Download & Save Justporn Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Justporn Downloader is built around the straightforward JustPorn video page structure, targeting the clean /video/{slug}/ URL pattern found on the platform. The extension watches for media references inside embedded players and presents available download options when stream data is detected. This keeps the download process simple and directly tied to the actual JustPorn video experience.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/justporn-downloader-fullscreen-01-9d5f6cd395.webp",
+    "https://apps.serp.co/media/optimized-products/justporn-downloader-fullscreen-02-8ff78e360e.webp",
+    "https://apps.serp.co/media/optimized-products/justporn-downloader-fullscreen-03-7fd91041c2.webp",
+    "https://apps.serp.co/media/optimized-products/justporn-downloader-fullscreen-04-c3c222e856.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What URL pattern does this extension work with?",
+      "answer": "The extension is built for Justporn video pages that follow the /video/{slug}/ structure, such as www.justporn.com/video/15743/busty-maiden-sophia-locke-is-ready-for-battle/."
+    },
+    {
+      "question": "Does this work with all Justporn video pages?",
+      "answer": "The extension targets pages matching the standard video route pattern. Other page types may not be supported."
+    },
+    {
+      "question": "What video formats can I download?",
+      "answer": "The extension detects m3u8 playlists and mp4 files when they are surfaced through the page's embedded player."
+    },
+    {
+      "question": "Is this extension free to use?",
+      "answer": "You get 3 free downloads to test the workflow. Unlimited downloads require a paid license."
+    },
+    {
+      "question": "Do I need to create an account?",
+      "answer": "Email sign-in is required for license verification, using secure one-time password authentication."
+    },
+    {
+      "question": "Is my data safe with this extension?",
+      "answer": "The extension processes downloads locally and does not collect unnecessary data. Standard privacy practices are followed."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Creating backups of content you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Targets JustPorn video pages with the /video/{slug}/ URL pattern",
+    "Detects media through embedded player surfaces",
+    "Supports both m3u8 playlists and mp4 direct files when available",
+    "Clean, focused interface that stays out of your way",
+    "Privacy-focused design with no unnecessary data collection",
+    "Verified target support with careful readiness messaging",
+    "Easy installation through GitHub Releases",
+    "Targets Justporn video pages with the /video/{slug}/ URL pattern",
+    "Detects media through embedded player surfaces using iframe analysis",
+    "Supports m3u8 playlist extraction when available",
+    "Supports mp4 direct file detection when surfaced",
+    "Clean popup interface for managing downloads",
+    "Privacy-focused design with local processing",
+    "Verified target status for Justporn platform support",
+    "Regular updates through GitHub Releases"
+  ],
+  "content": {
+    "why": [
+      "Downloading videos from Justporn can be frustrating when you rely on generic tools that don't understand the site's specific page structure. Many downloaders fail to detect media because they don't account for the embedded player flow that Justporn uses on its video pages. This leaves you with broken downloads, missing files, or no options at all.",
+      "Justporn Downloader solves this by targeting the actual Justporn video page pattern directly. The extension is built around the /video/{slug}/ route structure and understands how media is surfaced through the page's embedded player. Instead of guessing or using broad detection methods, it focuses on what Justporn actually presents — making the download process more reliable and straightforward."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Justporn and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a Justporn video page that follows the /video/{slug}/ pattern.",
+      "Wait for the page to fully load, including the embedded player area.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "The extension will scan the page for available media streams.",
+      "Review the detected formats and quality options displayed in the popup.",
+      "Select your preferred quality option from the available choices.",
+      "Click the download button to start the process.",
+      "Wait for the conversion to complete and save the MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and mp4 files detected through embedded player surfaces on Justporn video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Regular Justporn visitors who want to save videos for offline viewing",
+      "Users who prefer local media libraries over streaming",
+      "People who need reliable downloads from Justporn video pages",
+      "Anyone looking for a focused, site-specific downloader that understands Justporn's structure"
+    ],
+    "use_cases": [
+      "Saving favorite videos for offline playback when internet access is limited",
+      "Building a personal media collection from Justporn content",
+      "Archiving videos before they are removed or changed",
+      "Transferring content to devices that don't support streaming",
+      "Creating backups of content you have permission to save"
+    ],
+    "troubleshooting": [
+      "The extension doesn't detect any media on the video page Make sure the video player has fully loaded and playback has started. Some players require initial interaction before exposing stream data.",
+      "Download fails or produces a broken file Try refreshing the page and waiting for the player to fully initialize before starting the download process again.",
+      "The popup shows no options available Verify you are on a supported Justporn video page with the /video/{slug}/ URL pattern. Some pages may use different structures that aren't currently supported.",
+      "Download speed is very slow Your connection speed and the source server's bandwidth both affect download rates. Try again during off-peak hours for potentially better performance.",
+      "The extension icon is grayed out on a video page The extension may not recognize the current page as a supported Justporn video page. Check the URL format and try navigating to a standard video page."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Justporn page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Justporn video pages require the player to load fully before media detection works",
+      "The extension targets standard /video/{slug}/ page patterns for best results"
+    ],
+    "about": [
+      "Justporn is a video platform that hosts adult content across a wide range of categories. The site uses a clean page structure with embedded players for video playback, making it a natural fit for focused downloader tools that understand its specific URL patterns."
+    ]
+  },
+  "serpx_link": "https://serpx.link/justporn-downloader",
+  "github_topics": [
+    "justporn-download",
+    "justporn-downloader",
+    "justporn-video-downloader",
+    "justporn-video-downloader-online",
+    "justporn-video-downloader-mac",
+    "justporn-video-downloader-window",
+    "justporn-video-downloader-free",
+    "justporn-video-downloader-extension",
+    "justporn-video-downloader-app",
+    "justporn-video-downloader-chrome",
+    "justporn-video-downloader-from-url",
+    "how-to-download-justporn-videos",
+    "how-to-download-justporn-videos-mac",
+    "how-to-download-justporn-videos-windows",
+    "how-to-download-justporn-videos-online",
+    "how-to-download-justporn-videos-free",
+    "how-to-download-from-justporn",
+    "how-to-download-videos-from-justporn",
+    "download-justporn-videos",
+    "justporn-video-tutorial",
+    "save-justporn-videos",
+    "justporn-video-content-saver",
+    "how-to-download-justporn-videos-for-free"
+  ],
+  "hashtags": [
+    "#JustpornDownload",
+    "#JustpornDownloader",
+    "#JustpornVideoDownloader",
+    "#JustpornVideoDownloaderOnline",
+    "#JustpornVideoDownloaderMac",
+    "#JustpornVideoDownloaderWindow",
+    "#JustpornVideoDownloaderFree",
+    "#JustpornVideoDownloaderExtension",
+    "#JustpornVideoDownloaderApp",
+    "#JustpornVideoDownloaderChrome",
+    "#JustpornVideoDownloaderFromURL",
+    "#HowToDownloadJustpornVideos",
+    "#HowToDownloadJustpornVideosMac",
+    "#HowToDownloadJustpornVideosWindows",
+    "#HowToDownloadJustpornVideosOnline",
+    "#HowToDownloadJustpornVideosFree",
+    "#HowToDownloadFromJustporn",
+    "#HowToDownloadVideosFromJustporn",
+    "#DownloadJustpornVideos",
+    "#JustpornVideoTutorial",
+    "#SaveJustpornVideos",
+    "#JustpornVideoContentSaver",
+    "#HowToDownloadJustpornVideosForFree"
+  ],
+  "youtube_tags": [
+    "Justporn Download",
+    "Justporn Downloader",
+    "Justporn Video Downloader",
+    "Justporn Video Downloader Online",
+    "Justporn Video Downloader Mac",
+    "Justporn Video Downloader Window",
+    "Justporn Video Downloader Free",
+    "Justporn Video Downloader Extension",
+    "Justporn Video Downloader App",
+    "Justporn Video Downloader Chrome",
+    "Justporn Video Downloader From URL",
+    "How To Download Justporn Videos",
+    "How To Download Justporn Videos Mac",
+    "How To Download Justporn Videos Windows",
+    "How To Download Justporn Videos Online",
+    "How To Download Justporn Videos Free",
+    "How To Download From Justporn",
+    "How To Download Videos From Justporn",
+    "Download Justporn Videos",
+    "Justporn Video Tutorial",
+    "Save Justporn Videos",
+    "Justporn Video Content Saver",
+    "How To Download Justporn Videos For Free"
+  ]
+}
